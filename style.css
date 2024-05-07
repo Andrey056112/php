@@ -1,0 +1,208 @@
+* {
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+/*ceil-header*/
+
+.container>.header-list {
+    margin-left: 20;
+    text-align: center;
+}
+
+.ceil-1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ceil-number {
+    align-items: center;
+}
+
+.ceil-number-2 {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.ceil-2-title {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+
+.header-list>a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-text:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.ceil-header {
+    padding-left: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+
+.ceil-header-name {
+    font-size: 35px;
+    color: orange;
+}
+
+.ceil-header-city {
+    font-size: 10px;
+}
+
+.ceil-header-slogan {
+    font-size: 14px;
+}
+
+/*ceil-1*/
+
+
+
+.number-1 {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.number-2 {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.number-photo-1 {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.number-name-1 {
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.number-sell-1 {
+    text-align: center;
+}
+
+.number-buttom-1 {
+    width: 100%;
+    color: black;
+    border-color: black;
+    background-color: orange;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.number-buttom-1:hover {
+    opacity: 0.9;
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+}
+
+.number-buttom-2 {
+    width: 100%;
+    color: black;
+    border-color: black;
+    background-color: orange;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.number-buttom-2:hover {
+    opacity: 0.9;
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+}
+
+/*ceil-2*/
+
+.feedback-title {
+    font-size: 30px;
+    color: orange;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.feedback-title-1 {
+    opacity: 0.3;
+    text-align: right;
+    font-size: 10px;
+}
+
+.feedback {
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 8px;
+    width: 30%;
+    height: 200px;
+    display: inline-flex;
+    gap: 10px;
+    padding-top: 20px;
+    margin-left: 10px;    
+}
+
+.feedback-name {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.line-ceil-3 {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.ceil-3 {
+    font-size: 14px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-number-1 {
+    text-decoration: none;
+    color: #666;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.registration-title {
+    text-align: center;
+}
+
+.container-header {
+    gap: 10px;
+    text-align: center;
+}
+
+.header-text {
+    padding-left: 15px;
+}
+
+.registration>label>input,
+.registration>label>textarea,
+.registration>input[type='submit'] {
+    width: 300px;
+    height: 35px;
+    padding: 5px 10px;
+}
